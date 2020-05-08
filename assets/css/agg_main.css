@@ -1,0 +1,164 @@
+
+
+.logo{
+	width: 16vh;
+	display:flex;
+	height: 12vh;
+}
+
+
+
+
+
+.nav_header
+{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 94vw;
+	height: 5vh;
+	padding-left: 3vw;
+}
+
+
+
+
+
+
+
+.main1{
+
+	height:100vh;
+	display: flex;
+	overflow-x: hidden !important;
+	flex-wrap: wrap;
+}
+
+.bgleft{
+	flex-basis: 50%;
+	height: 100vh;
+	background-color: #F0F0F0;
+	display: flex;
+
+	
+}
+
+.logo{
+
+	height: 35vh;
+	
+	
+
+	width: 35vh;
+
+	background-image: url(../images/logo.png);
+	background-size: 45%;
+background-position: 50% 88%;
+	background-color: rgba(255,255,255,1);
+	border-radius: 100%;
+	margin-top: -20vh;
+	background-repeat: no-repeat;
+	box-shadow: 4px 4px 33px 5px rgba(0,0,0,0.2);
+	
+
+
+}
+
+.bgright{
+	flex-basis: 50%; 
+	height: 100vh;
+	/*justify-content: center;*/
+	background-color: white!important;
+	display: flex;
+
+}
+
+.con:hover{ -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+ 
+}
+
+.con
+{margin:auto;
+	height:40vh;
+	width:50vh;
+	border-radius: 30%;
+	box-shadow: 4px 4px 33px 5px rgba(0,0,0,0.2);
+	position: relative;
+ -webkit-transition-duration: 1s; /* Safari */
+  transition-duration: 1s;
+  cursor: pointer;
+  display: flex;
+}
+
+.img-bg,.img-bg1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right:0;
+  bottom: 0;
+  border-radius: 30%;
+} 
+
+a:hover{
+
+	outline: 0px solid black;
+	text-decoration:none;
+
+}
+
+a{
+	outline: 0px solid black;
+	text-decoration:none;
+
+
+	
+}
+
+.img-bg{
+		background-image: url('../images/bg_r.jpg');
+	background-size: cover ;
+	background-position: center;
+	background-repeat: no-repeat;
+		}
+
+
+.img-text{position: relative;
+			z-index: 3;
+  			color: white;
+  		
+  			font-size: 3.5vh;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 900;
+			color: white;
+  			font-style: italic;
+  			margin: auto;
+  			
+ } 			
+
+
+.img-bg1{
+	background-image: url('../images/bg_t.jpg');
+	background-size: 100% 100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+		}
+
+
+
+		@media only screen and (orientation: portrait) {
+
+			.main1{display: block;}
+			.bgleft,.bgright{
+				
+				height: 80vh;}
+			
+			.con{
+					height:30vh;
+					width:40vh;
+
+					}
+		}

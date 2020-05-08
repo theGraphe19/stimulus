@@ -1,0 +1,150 @@
+*{font-family: 'Montserrat', sans-serif!important;}
+
+
+
+.logo{
+    
+    
+	height: 35vh;
+	
+	
+
+	width: 35vh;
+
+	background-image: url(../images/logo.png);
+	background-size: 45%;
+background-position: 50% 88%;
+	background-color: rgba(255,255,255,1);
+	border-radius: 100%;
+	margin-top: -20vh;
+	background-repeat: no-repeat;
+	box-shadow: 4px 4px 33px 5px rgba(0,0,0,0.2);
+
+}
+
+
+
+
+
+	.nav_header
+{
+
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 94vw;
+	height: 5vh;
+	padding-left: 3vw;
+
+
+}
+
+
+
+.main1{
+	height:100vh;
+	background-color: rgb(52, 68, 127);
+	overflow-x: hidden !important;
+	display: flex;
+	align-items:center;
+
+
+}
+
+
+.box-inner{
+	
+	margin:auto!important;
+	
+	width: 60%;
+	height:30vh;
+	color:white;
+
+	padding:3% 5% 3% 5% !important;
+
+	
+}
+
+::placeholder {
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 1; 
+}
+
+.otp
+{
+	
+	background-color: rgb(39, 54, 109);
+    color: #ffffff!important;
+    width: 40vw;
+    height: 7vh;
+    font-size: 2.5em;
+    /* margin-right: 2%; */
+    margin: 4vh 0vw 0vh 10vw;
+    outline: none;
+    border: none!important;
+    border-radius: 5px!important;
+    text-align: center;
+}
+
+
+.b{font-weight: 600;font-size:1.5em;text-align: center;}
+.d{display: flex;align-items:center;}
+.c{font-weight: 600;font-size:1.2em;padding-top: 3vh;text-align: center;}
+
+.btn{
+
+
+    border-radius: 5px!important;
+    background-color: rgb(41,166,235);
+    color: #ffffff;
+    font-weight: 200;
+    height: 7vh;
+    width: 5vw;
+    border: none;
+    outline: none;
+    margin: 4vh 0vw 0vh 1vw;
+
+}
+
+.btn img
+{
+    width: 50%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+images{
+
+
+	width: 1.5vw;
+    height: auto;
+	}
+
+.btn2{border-radius: 25px!important;
+	background-color: rgb(41,166,235);
+	color:#ffffff;
+	font-size:1.2em;
+	font-weight: 800;
+	letter-spacing: 0.1em; 
+	padding:0.8% 4%;
+	border:none;
+	outline:none;
+	margin: 2% 0% 0% 0%;}
+
+
+@media only screen and (orientation: portrait)
+{
+
+.otp{width:52vw;margin: 4vh 0vw 0vh 0vw;}
+.btn{width:8%;height:15%;}
+
+.b{font-size: 0.7em;}
+
+.c{font-size: 0.7em;}
+
+}

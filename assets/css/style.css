@@ -1,0 +1,39 @@
+body
+{
+    font: 14px sans-serif;
+}
+
+.brand img
+{
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+.wrapper
+{
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 600px;
+    text-align: center;
+}
+
+.wrapper h2, .wrapper_login h2
+{
+    margin-bottom: 3vh;
+}
+
+.wrapper_login, .wrapper_visa
+{
+    width: 350px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.divCountNT
+{
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+}
